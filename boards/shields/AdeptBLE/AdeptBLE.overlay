@@ -101,11 +101,6 @@
     };
 };
 
-
-&usbd_hid {
-    in-polling-period-us = <1000>;
-};
-
 &uart0 {
     status = "disabled";
 };
